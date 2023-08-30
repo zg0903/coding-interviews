@@ -7,7 +7,7 @@ package hot100;
  * @date 2023-08-16-22:14
  * @Desc:合并两个有序数组
  */
-public class _04_merge {
+public class _0088_merge {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int p1 = 0, p2 = 0;
         int[] sorted = new int[m + n];
@@ -60,6 +60,6 @@ public class _04_merge {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 0, 0, 0};
         int[] b = {1, 5, 6};
-        new _04_merge().merge(a, 3, b, 3);
+        new _0088_merge().merge(a, 3, b, 3);
     }
 }

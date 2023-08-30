@@ -7,7 +7,7 @@ package hot100;
  * @date 2023-08-19-19:29
  * @Desc:x 的平方根
  */
-public class _11_mySqrt {
+public class _0069_mySqrt {
     public int mySqrt(int x) {
         if (x == 0 || x == 1) {
             return x;
@@ -27,7 +27,7 @@ public class _11_mySqrt {
 
 
     public static void main(String[] args) {
-        int i = new _11_mySqrt().mySqrt(36);
+        int i = new _0069_mySqrt().mySqrt(36);
         System.out.println(i);
     }
 }

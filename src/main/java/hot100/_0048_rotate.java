@@ -7,7 +7,7 @@ package hot100;
  * @date 2023-08-13-18:15
  * @Desc:旋转图像
  */
-public class _2_rotate {
+public class _0048_rotate {
 
     public void rotate(int[][] matrix) {
 

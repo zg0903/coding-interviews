@@ -5,9 +5,9 @@ package hot100;
  * @Project_name coding-interviews
  * @Package_name hot100
  * @date 2023-08-13-19:09
- * @Desc:
+ * @Desc:数组中的第K个最大元素
  */
-public class _3_findKthLargest {
+public class _0215_findKthLargest {
 
 //    快排
 
@@ -27,8 +27,8 @@ public class _3_findKthLargest {
             swap(nums, i, j);
         }
         swap(nums, i, left);
-        qucikSort(nums,left,i-1);
-        qucikSort(nums,i+1,right);
+        qucikSort(nums, left, i - 1);
+        qucikSort(nums, i + 1, right);
 
     }
 
@@ -53,12 +53,11 @@ public class _3_findKthLargest {
         return nums[nums.length - k];
 
     }
+
     public int findKthLargest2(int[] nums, int k) {
         return quickSort2(nums, k, 0, nums.length - 1);
 
     }
-
-
 
 
 }
