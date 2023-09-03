@@ -5,9 +5,10 @@ package hot100;
  * @Project_name coding-interviews
  * @Package_name hot100
  * @date 2023-08-27-21:25
- * @Desc:
+ * @Desc:最长重复子数组
  */
 public class _0718_findLength {
+//    https://leetcode.cn/problems/maximum-length-of-repeated-subarray/solutions/77689/dong-tai-gui-hua-by-hai-gen/
     public int findLength(int[] nums1, int[] nums2) {
         int result = 0;
         int[][] dp = new int[nums1.length + 1][nums2.length + 1];
@@ -24,6 +25,8 @@ public class _0718_findLength {
         return result;
     }
 
+
+//    https://leetcode.cn/problems/maximum-length-of-repeated-subarray/solutions/28583/wu-li-jie-fa-by-stg-2/
     public int findLength2(int[] A, int[] B) {
         return A.length < B.length ? findMax(A, B) : findMax(B, A);
     }

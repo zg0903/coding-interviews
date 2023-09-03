@@ -5,7 +5,7 @@ package hot100;
  * @Project_name coding-interviews
  * @Package_name hot100
  * @date 2023-08-27-14:48
- * @Desc:移动零 快慢指针
+ * @Desc:移动零 快慢指针 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
  */
 
 

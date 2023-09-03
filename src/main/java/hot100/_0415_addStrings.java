@@ -5,7 +5,7 @@ package hot100;
  * @Project_name coding-interviews
  * @Package_name hot100
  * @date 2023-08-27-15:16
- * @Desc:字符串相加
+ * @Desc:字符串相加 给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和并同样以字符串形式返回。
  */
 public class _0415_addStrings {
     public String addStrings(String num1, String num2) {
