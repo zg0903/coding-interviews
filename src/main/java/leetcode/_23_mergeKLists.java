@@ -7,7 +7,7 @@ import com.sun.scenario.effect.Merge;
  * @Project_name coding-interviews
  * @Package_name leetcode
  * @date 2022-11-14-21:22
- * @Desc:
+ * @Desc:合并 K 个升序链表
  */
 public class _23_mergeKLists {
 
